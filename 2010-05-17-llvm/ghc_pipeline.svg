@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="609.89642"
+   height="95.994873"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="ghc_pipeline.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send"
+       style="overflow:visible">
+      <path
+         id="path4044"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         id="path4026"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path4038"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path4020"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path3262"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path3384"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3273"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <filter
+       inkscape:collect="always"
+       id="filter3988"
+       x="-0.33308685"
+       width="1.6661737"
+       y="-3.6247067"
+       height="8.2494135">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2654417"
+         id="feGaussianBlur3990" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3992"
+       x="-0.33308685"
+       width="1.6661737"
+       y="-3.6247067"
+       height="8.2494135">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2654417"
+         id="feGaussianBlur3994" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3996"
+       x="-0.33308685"
+       width="1.6661737"
+       y="-3.6247067"
+       height="8.2494135">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2654417"
+         id="feGaussianBlur3998" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4000"
+       x="-0.33308685"
+       width="1.6661737"
+       y="-3.6247067"
+       height="8.2494135">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2654417"
+         id="feGaussianBlur4002" />
+    </filter>
+    <inkscape:perspective
+       id="perspective2911"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3019"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send-1"
+       style="overflow:visible">
+      <path
+         id="path4044-3"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective3052"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send-2"
+       style="overflow:visible">
+      <path
+         id="path4044-1"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4267407"
+     inkscape:cx="163.84304"
+     inkscape:cy="14.920558"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1674"
+     inkscape:window-height="970"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.519429,-549.6726)">
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;filter:url(#filter3988);enable-background:accumulate"
+       d="M 301.22059,597.67007 L 316.04384,597.67007"
+       id="path14703"
+       transform="matrix(1.639664,0,0,1.1355293,51.023304,-81.001849)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3911"
+       transform="matrix(1.0941972,0,0,1.1355293,41.372983,-7.5607662)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="522.69775"
+         x="60.607311"
+         height="20.593273"
+         width="50.164577"
+         id="rect3827"
+         style="fill:none;stroke:#000000;stroke-width:0.61378229;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         transform="translate(39.901031,392.90092)"
+         id="text3829"
+         y="144.56709"
+         x="24.149897"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="144.56709"
+           x="24.149897"
+           id="tspan3831"
+           sodipodi:role="line">Haskell</tspan></text>
+    </g>
+    <g
+       id="g2597"
+       transform="matrix(1.0941972,0,0,1.1355293,-16.62711,-81.001844)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text3837"
+         y="602.03821"
+         x="190.47876"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="602.03821"
+           x="190.47876"
+           id="tspan3839"
+           sodipodi:role="line">Core</tspan></text>
+      <rect
+         y="587.35101"
+         x="182.88329"
+         height="20.638023"
+         width="43.022984"
+         id="rect3874"
+         style="fill:none;stroke:#000000;stroke-width:0.56903291;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3936"
+       transform="matrix(1.0941972,0,0,1.1355293,379.59131,-99.38658)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text3857"
+         y="618.33417"
+         x="175.76314"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="618.33417"
+           x="175.76314"
+           id="tspan3859"
+           sodipodi:role="line">Executable</tspan></text>
+      <rect
+         y="603.62415"
+         x="173.08546"
+         height="20.472748"
+         width="72.222527"
+         id="rect3934"
+         style="fill:none;stroke:#000000;stroke-width:0.73430675;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;filter:url(#filter3996);enable-background:accumulate"
+       d="M 162.07331,597.67007 L 176.89656,597.67007"
+       id="path3966"
+       transform="matrix(1.3299913,0,0,1.1355293,-52.725207,-81.001844)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;filter:url(#filter3992);enable-background:accumulate"
+       d="M 232.84237,597.67007 L 247.66562,597.67007"
+       id="path3968"
+       transform="matrix(1.3241489,0,0,1.1355293,-76.855546,-81.001844)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;filter:url(#filter3988);enable-background:accumulate"
+       d="M 301.22059,597.67007 L 316.04384,597.67007"
+       id="path3970"
+       transform="matrix(1.3668929,0,0,1.1355293,-111.68189,-81.001844)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.67200768;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.67200765, 1.67200765;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 368.05302,585.95643 L 392.64395,562.74423"
+       id="path4004"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.67200768;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.67200765, 1.67200765;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 368.18382,609.30436 L 392.55147,633.10613"
+       id="path4006"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.67200768;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.67200765, 1.67200765;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 466.94001,561.25104 L 485.77562,584.32749"
+       id="path13597"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.67200768;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.67200765, 1.67200765;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 466.67841,634.00974 L 485.77562,610.66181"
+       id="path14150"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g2513"
+       transform="matrix(1.0941972,0,0,1.1355293,-34.510672,-87.136006)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(4.1513845,-3.5688165)"
+         id="g2497">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.77151889;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2499"
+           width="46.892681"
+           height="34.80822"
+           x="477.28137"
+           y="587.45239" />
+        <g
+           id="g2501"
+           transform="translate(0.8077297,0.2749901)">
+          <text
+             id="text2503"
+             y="600.98065"
+             x="480.18268"
+             style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="600.98065"
+               x="480.18268"
+               id="tspan2505"
+               sodipodi:role="line">Object</tspan><tspan
+               id="tspan2507"
+               y="615.98065"
+               x="480.18268"
+               sodipodi:role="line" /></text>
+          <text
+             id="text2509"
+             y="617.12964"
+             x="486.45514"
+             style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="617.12964"
+               x="486.45514"
+               id="tspan2511"
+               sodipodi:role="line">Files</tspan></text>
+        </g>
+      </g>
+      <g
+         transform="translate(2.1689443,-1.8341823)"
+         id="g2481">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.77151889;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2483"
+           width="46.892681"
+           height="34.80822"
+           x="477.28137"
+           y="587.45239" />
+        <g
+           id="g2485"
+           transform="translate(0.8077297,0.2749901)">
+          <text
+             id="text2487"
+             y="600.98065"
+             x="480.18268"
+             style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="600.98065"
+               x="480.18268"
+               id="tspan2489"
+               sodipodi:role="line">Object</tspan><tspan
+               id="tspan2491"
+               y="615.98065"
+               x="480.18268"
+               sodipodi:role="line" /></text>
+          <text
+             id="text2493"
+             y="617.12964"
+             x="486.45514"
+             style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="617.12964"
+               x="486.45514"
+               id="tspan2495"
+               sodipodi:role="line">Files</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g2472">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.77151889;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect3927"
+           width="46.892681"
+           height="34.80822"
+           x="477.28137"
+           y="587.45239" />
+        <g
+           id="g2465"
+           transform="translate(0.8077297,0.2749901)">
+          <text
+             id="text3861"
+             y="600.98065"
+             x="480.18268"
+             style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="600.98065"
+               x="480.18268"
+               id="tspan3863"
+               sodipodi:role="line">Object</tspan><tspan
+               id="tspan2459"
+               y="615.98065"
+               x="480.18268"
+               sodipodi:role="line" /></text>
+          <text
+             id="text2461"
+             y="617.12964"
+             x="486.45514"
+             style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="617.12964"
+               x="486.45514"
+               id="tspan2463"
+               sodipodi:role="line">Files</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g2587"
+       transform="matrix(1.0941972,0,0,1.1355293,-24.490387,-81.001844)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text3841"
+         y="602.03821"
+         x="261.86975"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="602.03821"
+           x="261.86975"
+           id="tspan3843"
+           sodipodi:role="line">STG</tspan></text>
+      <rect
+         y="587.35101"
+         x="252.38756"
+         height="20.638023"
+         width="43.022984"
+         id="rect2578"
+         style="fill:none;stroke:#000000;stroke-width:0.56903291;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2582"
+       transform="matrix(1.0941972,0,0,1.1355293,-31.269076,-81.001844)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text3845"
+         y="602.03821"
+         x="327.68851"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="602.03821"
+           x="327.68851"
+           id="tspan3847"
+           sodipodi:role="line">Cmm</tspan></text>
+      <rect
+         y="587.35101"
+         x="321.89185"
+         height="20.638023"
+         width="43.022984"
+         id="rect2580"
+         style="fill:none;stroke:#000000;stroke-width:0.56903291;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2944"
+       transform="translate(0,0.2227439)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         transform="scale(0.9816318,1.0187119)"
+         id="text3853"
+         y="590.34705"
+         x="405.61392"
+         style="font-size:13.37606144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="590.34705"
+           x="405.61392"
+           id="tspan3855"
+           sodipodi:role="line">Assembly</tspan></text>
+      <rect
+         y="585.99048"
+         x="393.90839"
+         height="23.287346"
+         width="71.514252"
+         id="rect3884"
+         style="fill:none;stroke:#000000;stroke-width:0.77930838;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         id="text2466"
+         y="582.33246"
+         x="411.64502"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="582.33246"
+           x="411.64502"
+           id="tspan2468"
+           sodipodi:role="line">(NCG)</tspan></text>
+    </g>
+    <g
+       id="g2951"
+       transform="translate(0,11.966968)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="matrix(1.0941972,0,0,1.1355293,-34.527733,-105.00184)"
+         id="g13592">
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="421.27081"
+           y="570.36658"
+           id="text3849"><tspan
+             sodipodi:role="line"
+             id="tspan3851"
+             x="421.27081"
+             y="570.36658">C</tspan></text>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.69913709;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect13587"
+           width="65.357727"
+           height="20.507919"
+           x="392.79312"
+           y="555.74445" />
+      </g>
+      <text
+         id="text2470"
+         y="522.24268"
+         x="390.26764"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="522.24268"
+           x="390.26764"
+           id="tspan2472"
+           sodipodi:role="line">(C  Back-end)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:13.37606144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="414.07843"
+       y="639.21997"
+       id="text3853-3"
+       transform="scale(0.9816318,1.0187119)"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3855-0"
+         x="414.07843"
+         y="639.21997">LLVM IR</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.77930838;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3884-4"
+       width="71.514252"
+       height="23.287346"
+       x="396.50494"
+       y="634.5705"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="412.2728"
+       y="630.91248"
+       id="text2466-4"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2468-4"
+         x="412.2728"
+         y="630.91248">(LLVM)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.67200768;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.67200765, 1.67200765;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow2Send);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 368.39912,597.93421 c 0,0 23.10775,0.16524 23.10775,0.16524"
+       id="path4004-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.67200768;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.67200765, 1.67200765;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow2Send);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 465.48737,597.93421 c 0,0 20.13409,0.0413 20.13409,0.0413"
+       id="path4004-8-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/david/Desktop/LLVM Blog/pipeline.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
