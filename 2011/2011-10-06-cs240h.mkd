@@ -1,0 +1,32 @@
+# Stanford Haskell Course
+
+This semester there is an exciting new course being taught at Stanford
+University, CS 240h: Functional Systems in Haskell. It's being being
+taught by both [David Mazi&egrave;res](http://www.scs.stanford.edu/~dm/)
+and [Bryan O'Sullivan](http://www.serpentine.com/). I'm TA for the
+course though so it isn't all sunshine and rainbows.
+
+If having monads described as:
+
+> A programmable semicolon
+
+is more intuitive then talking about how they
+
+> generalize closure operators on partially ordered sets to arbitrary
+> categories
+
+this is the course for you! We won't be covering semantics of
+programming languages. We won't be covering abstract math. We will be
+covering how to effectively use and understand Haskell as a systems
+language.
+
+The course home page can be found
+[here](http://www.scs.stanford.edu/11au-cs240h/) and Bryan maintains a
+Github mirror of all the material
+[here](https://github.com/bos/stanford-cs240h). There are no video
+recordings of the lecture at this point as we aren't in a room with
+the facilities unfortunately. If the course is a success and continues
+in the future we will look to get recordings or maybe something like
+the [Stanford Engineering
+Everywhere](http://see.stanford.edu/see/about.aspx) project.
+
