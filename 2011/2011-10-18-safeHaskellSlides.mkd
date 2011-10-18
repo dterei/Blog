@@ -1,0 +1,16 @@
+I presented a talk this year at the Haskell Implementors Workshop over in
+Tokyo. It was a great time, attending some very interesting talks and meeting
+up with old and new friends in the Haskell and Functional Programming
+community. My talk was on [Safe
+Haskell](http://www.scs.stanford.edu/~davidt/safehaskell.html), an extension
+recently added to GHC that I've been working on with [David
+Mazi&egrave;res](http://www.scs.stanford.edu/~dm/), [Simon
+Marlow](http://research.microsoft.com/en-us/people/simonmar/) and [Simon Peyton
+Jones](http://research.microsoft.com/en-us/people/simonpj/). I want to write a
+blog post about it at some point, but for now here are the slides from the
+talk:
+
+<div style="width:425px" id="__ss_9755401"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/dterei/safe-haskell" title="Safe Haskell" target="_blank">Safe Haskell</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/9755401" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/dterei" target="_blank">dterei</a> </div> </div>
+
+You can also download the slides in PDF form [here](http://www.scs.stanford.edu/~davidt/downloads/safe-haskell-hiw11-slides.pdf).
+
