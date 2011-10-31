@@ -1,0 +1,245 @@
+= JavaScript
+
+ - Created by Brendan Eich in 1995, engineer at Netscape
+ - Dynamic, OO language
+ - OO done through prototypes, not classes and inheritance chain is
+   dynamic, can be changed dynamically at run-time
+ - First class functions (functions are objects)
+
+== Types
+
+ - Dynamically typed
+ - Base types are:
+   - Numbers (64bit floating point only)
+   - Strings (16bit Unicode character sequences)
+   - Booleans
+   - Objects (simply (key, value) pairs [i.e hash maps])
+     - Functions
+     - Array
+     - Date
+     - RegExp
+     - Error
+   - Null, Undefined (these don't act like objects!)
+
+=== Objects vs Primitives
+
+ - JS is often said to be in the vain of Smalltalk where everything is
+   an object
+   - on the surface acts this way
+   - the language specification isn't like this though, instead there
+     is a divide in the world between objects and primitives just like
+     in Java
+   - hides this though by doing auto-boxing for all primitives so that
+     they behave like objects. (e.g "asda" is a string primitive but
+     we can call "asda".length and it is auto boxed / coerced to its
+     wrapper String object)
+
+ - primitives are values that have no properties. They are immutable
+   and can be 'fully' stored in a variable (copies are made on
+   apparent mutation)
+ - objects are stored in variables as references / pointers
+
+ - primitives: undefined, null, boolean, string and number
+   - null, undefined: these don't act like objects
+   - Boolean, String, Number object wrappers
+ - object: all else
+
+# FIXME: Not sure of this stuff, I can't assign a property to 
+# var x = String("Hello"), either!
+
+ - primitives can't be assigned properties (it will work but is a nop)
+   e.g var s = "123";
+       s.myProp = 4;
+       s.myProp; //undefined;
+   the auto-boxing just boxes for the call, not casts it for good.
+   e.g var s = "123";
+       s.length;
+       s.p = 4;
+       s.p;
+       =>
+       var s = "123"; //string primitive
+       (String (s)).length; // autoboxed for length call
+       (String (s)).p = 4; // autoboxed, but string object has no
+                           // reference, so removed
+       s.p; //undefined as s is primitive string type
+
+== Numbers
+
+ - 64bit floating point only, no integers
+ - Use Math object to access advance operations
+ - parsing operations:
+   - parseInt(String, radix) :: String -> Number
+   - parseFloat(String) :: String -> Number (radix is always 10)
+     - parseFloat('123.2312abcc') = 123.2312
+   - + '123.123', + :: String -> Number (radix is always 10)
+     - + '123.2312abcc' = NaN
+ - NaN: represents invalid numbers / not a number
+ - +/- Infinity value
+
+== Strings
+
+ - Sequence of 16 bit Unicode characters
+ - Strings are objects (auto-boxed anyway)
+ - 'Hello World'.length()
+
+== Null vs Undefined
+
+ - Null: deliberate non-value
+ - Undefined: uninitialized value
+
+== Booleans
+
+> true
+> false
+
+ - any value can be coerced to a Boolean:
+   - False <= false, 0, "", NaN, null, undefined
+   - True <= all else
+   - can perform coercion explicitly using Boolean()
+
+== Variables
+
+> var bar; // bar = undefined
+> var foo = "Hello";
+
+ - syntax for introducing: var <variable name> [= <value>]
+ - variables with no value have value undefined
+ - only functions have scope, not blocks, so a var is live for whole function
+   from point of introduction
+
+== Operators
+
+ - '+' does string concatenation and addition
+ - <,>,<=, >= work for strings and numbers
+ - '==' does type coercion, use '===' to avoid
+ - !=, !==, and bitwise operations
+
+== Control Structures
+
+> if (...) {...} else if (...) {...} else {...}
+> var y = (x > N) ? x : y;
+> while (...) {...}
+> do {...} while (...)
+> for (var i = 0; i < N; i++) {...}
+> for (var i in N) {...}
+> switch (...) {case 'hello': ...; break; default: ...}
+
+ - boolean logic: &&, || (use short-circuit logic)
+ - switch statement (cases fall through unless you use a 'break' statement,
+   and default clause is optional), can match on numbers or strings
+   - can have expression in the case match as well (e.g case 2 + 2)
+
+== Objects
+
+ - simply (name, value) pairs
+ - Create empty object with: {} or Object()
+   - empty inherit from Object.prototype (which has no properties)
+ - accessing properties via '.' or brackets, e.g foo.name or foo['name']
+   - brackets allow dynamic access
+ - use 'delete' operator to remove property, e.g 'delete foo.name;'
+ - can setup an Object as a map, e.g
+   var test = {'key1': 'value1', 'key2': 12};
+
+=== Prototype Inheritance
+
+ - inheritance done by 'inheritance chains'
+ - object has a 'prototype' property that specifies its superclass /
+   prototype
+     - Bar.prototype = new Foo(); Bar.prototype.constructor = Bar;
+       - Make sure to use 'new Foo()' as since the prototype is simply
+         a property, you can get unexpected results if you share
+         existing Foo instances...
+ - property lookup traverses this inheritance chain
+    - done dynamically so can change an objects prototype at any time
+    - longer the chain and further along the property, the worse
+      performance is
+ - monkey patching (adding functionality to built in prototypes)
+   considered bad!
+ - can check if a property is defined on this prototype (not up the
+   chain) using 'hasOwnProperty'
+    - use a fresh object '({}).hasOwnProperty.call(foo, "bar")'
+      in case the hasOwnProperty method on foo has been changed
+ - can iterate over object properties using 'for (var p in foo)
+   {...}'. Note that this will traverse the inheritance chain.
+    - recommended to use 'hasOwnProperty' method when iterating over
+      object properties (in for loops) to avoid errors from extended
+      prototypes (monkey patched)
+
+== Arrays
+
+> var x = new Array();
+> x[0] = "dog";
+> x[1] = "cat";
+> x.length ; // 2
+
+> var y = ["dog", "cat"];
+
+ - arrays can multiple types:
+
+> var z = [1,2,"hello", false]
+
+> for (var i = 0, item; item = x[i++];) {...}
+> for (var i in x) { // do something with x[i]}
+
+ - when using the 'for in' loop, note that the variable isn't the
+   array element but the index!
+ - can think of arrays as objects with the properties of 0..N, e.g
+   x['0'] = "dog";
+   - so sadly the 'for in' loop actually loops over the objects
+     properties, not its array elements! so be careful if there are
+     extra properties on the array then the elements
+
+> a.concat(item1, item2, ...) // append items to array
+> [1,2,3].pop(); // = 3
+> [1,2,3].push(4); // = [1,2,3,4]
+> [1,2,3,4].slice(0,2); // = [1,2]
+> [4,3,1,2].sort(); // = [1,2,3,4], can take comparison function
+> var x = [1].unshift(0); // x = [0,1]
+
+== Functions
+
+> function add(x,y) { var total = x + y;  return total; }
+> var add = function (x,y) {...}; // anonymous
+> var add = (function add'(x,y) {...}); // named anonymous
+
+ - Can pass any amount of arguments, unset named ones will have the
+   value 'undefined', extra ones can be accessed by the 'arguments'
+   array inside a function
+
+> function sum() { var total = 0; for (i in arguments) {...} ... }
+
+ - to pass an array as an argument list to a function f, use
+   'f.apply(null, arr);' [first argument is for setting the
+   this argument]
+ - also 'f.call(null, ...)' that takes the list of arguments instead
+   of an array like apply does
+
+ - since functions are first class, can define them within a function
+   (nested functions) and while JS only has function scope, no block
+   scoping, you can use this to limit scope.
+
+== Object / Prototypes / Classes
+
+> function Person(first, last) {
+>   this.first = first;
+>   this.last = last;
+> }
+> Person.prototype.fullName = function() {
+>   return this.first + ' ' + this.last;
+> }
+> Person.prototype.fullName' = function() {
+>   return this.last + ' ' + this.first;
+> }
+> 
+> var p = new Person('David', 'Terei');
+
+ - by convention functions for creating objects start with a capital
+ - the 'new' keyword creates a new object and passes it to the
+   function specified (Person) with 'this' variable set to the new
+   object
+ - use above prototype method to share function code across all Person
+   instances
+ - anything assigned to Person.prototype becomes available to all
+   Person objects (allow dynamic code addition [monkey patching])
+ - root of prototype chain is 'Object.prototype'
+
